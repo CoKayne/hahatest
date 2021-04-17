@@ -13,7 +13,7 @@ int count_num(int n){
 	}
 	return ans;
 }
- 
+
 bool check_odd(int n){
 	int num=0, ini = n;
 	while(n!=0){
@@ -27,7 +27,8 @@ bool check_odd(int n){
 }
 
 int main(){
-	
+
+	int a=123123123;
 	ll n;
 	cin>>n;
 	ll max = n, low = n;
@@ -42,6 +43,6 @@ int main(){
 	a2 = abs(max - n);
 	if(a1 > a2) cout<<a2;
 	else cout<<a1;
-	
+
 return 0;
 }
