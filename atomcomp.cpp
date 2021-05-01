@@ -43,6 +43,7 @@ int main(){
 	a2 = abs(max - n);
 	if(a1 > a2) cout<<a2;
 	else cout<<a1;
+	int m;
 
 return 0;
 }
